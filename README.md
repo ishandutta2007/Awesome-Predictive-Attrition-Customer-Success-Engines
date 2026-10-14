@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines?style=social&color=white" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines?style=social&color=white" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines?style=social&color=white" alt="GitHub forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
@@ -77,43 +77,43 @@ The following table compares category-defining SaaS Customer Success and Churn P
 
 ## 💻 Open-Source Repositories & Toolkits
 
-Self-hosted frameworks, open-source CRMs, MLOps churn prediction pipelines, and agentic customer analytics tools, **sorted in descending order by GitHub Star count**.
+Self-hosted frameworks, open-source CRMs, MLOps churn prediction pipelines, and agentic customer analytics tools, **sorted in descending order by GitHub Stars_Count**.
 
-* **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+* **[Twenty](https://github.com/twentyhq/twenty)** [![GitHub_Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
   *Modern open-source CRM alternative to Salesforce.* Provides complete customer 360 profiles, custom pipeline views, GraphQL APIs, and automated task workflows. Serves as the central data and operational hub for customer success managers tracking account health and renewal deadlines.
-* **[PostHog](https://github.com/posthog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers)  
+* **[PostHog](https://github.com/posthog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers)  
   *All-in-one open-source product analytics suite.* Features cohort retention curves, drop-off churn funnels, session recordings, feature flag monitoring, and telemetry event streams. Critical for pinpointing the exact product usage degradation that precedes account cancellation.
-* **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+* **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
   *Open-source omnichannel customer engagement and helpdesk platform.* Tracks conversation response times, resolution SLAs, and account-level custom attributes across live chat, email, and social channels to capture support frustration signals before churn strikes.
-* **[Customer Success Manager Agent Skills (Claude Skills)](https://github.com/alirezarezvani/claude-skills)** [![GitHub stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=social&color=white)](https://github.com/alirezarezvani/claude-skills/stargazers)  
+* **[Customer Success Manager Agent Skills (Claude Skills)](https://github.com/alirezarezvani/claude-skills)** [![GitHub_Stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=social&color=white)](https://github.com/alirezarezvani/claude-skills/stargazers)  
   *Production-grade CLI customer success toolkit in pure Python (zero external dependencies).* Includes `health_score_calculator.py` (configurable multi-dimensional weighting across Product, Relationship, and Outcome pillars), `churn_risk_analyzer.py` (risk stratification across Enterprise, Mid-Market, and SMB tiers), and `expansion_opportunity_scorer.py`.
-* **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
+* **[Formbricks](https://github.com/formbricks/formbricks)** [![GitHub_Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)  
   *Privacy-first, self-hosted experience management and survey suite.* Enables targeted in-app micro-surveys for Net Promoter Score (NPS), Customer Satisfaction (CSAT), and cancellation exit interviews to feed real-time sentiment telemetry into scoring models.
-* **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
+* **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub_Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
   *Open-source feature flagging and experimentation engine.* Enables CS and product teams to roll out retention-focused workflows, track feature adoption cohorts, and run statistical A/B tests to measure how feature interventions reduce churn.
-* **[Zammad](https://github.com/zammad/zammad)** [![GitHub stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers)  
+* **[Zammad](https://github.com/zammad/zammad)** [![GitHub_Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers)  
   *Enterprise-ready open-source ticketing and customer communication system.* Centralizes inbound support requests, tracks ticket escalations, and surfaces unresolved customer friction points feeding into risk assessment algorithms.
-* **[Fider](https://github.com/getfider/fider)** [![GitHub stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers)  
+* **[Fider](https://github.com/getfider/fider)** [![GitHub_Stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers)  
   *Open-source voice-of-the-customer and product feedback voting platform.* Collects and ranks user feature requests, illuminating critical product gaps that lead key enterprise customer segments to consider competing platforms.
-* **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** [![GitHub stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers)  
+* **[Frappe Helpdesk](https://github.com/frappe/helpdesk)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/helpdesk?style=social&color=white)](https://github.com/frappe/helpdesk/stargazers)  
   *Modern, customizable open-source service desk built on the Frappe framework.* Features automated ticket assignment, SLA breach warnings, customer satisfaction analytics, and seamless integration with ERPNext.
-* **[health_scorer.py (Claude-Skills)](https://github.com/borghei/Claude-Skills)** [![GitHub stars](https://img.shields.io/github/stars/borghei/Claude-Skills?style=social&color=white)](https://github.com/borghei/Claude-Skills/stargazers)  
+* **[health_scorer.py (Claude-Skills)](https://github.com/borghei/Claude-Skills)** [![GitHub_Stars](https://img.shields.io/github/stars/borghei/Claude-Skills?style=social&color=white)](https://github.com/borghei/Claude-Skills/stargazers)  
   *Standalone Python customer health scoring script.* Implements balanced multi-factor scoring: Product (login frequency, feature depth, user ratios), Relationship (executive touches, NPS), and Outcomes (demonstrated ROI). Generates 0–100 health grades and categorized remediation playbooks.
-* **[Telecom Customer Churn Prediction](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction)** [![GitHub stars](https://img.shields.io/github/stars/Pradnya1208/Telecom-Customer-Churn-prediction?style=social&color=white)](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/stargazers)  
+* **[Telecom Customer Churn Prediction](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction)** [![GitHub_Stars](https://img.shields.io/github/stars/Pradnya1208/Telecom-Customer-Churn-prediction?style=social&color=white)](https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/stargazers)  
   *End-to-end churn prediction framework with Explainable AI.* Combines survival analysis and Random Forest classification with SHAP (SHapley Additive exPlanations) values to explain why specific accounts are churning, packaged in a lightweight Flask web app.
-* **[ChurnGuard AI](https://github.com/jaideep005/churn_retention_system)** [![GitHub stars](https://img.shields.io/github/stars/jaideep005/churn_retention_system?style=social&color=white)](https://github.com/jaideep005/churn_retention_system/stargazers)  
+* **[ChurnGuard AI](https://github.com/jaideep005/churn_retention_system)** [![GitHub_Stars](https://img.shields.io/github/stars/jaideep005/churn_retention_system?style=social&color=white)](https://github.com/jaideep005/churn_retention_system/stargazers)  
   *Retention intelligence web application powered by Streamlit, Scikit-Learn, and LLMs.* Features automated ETL feature engineering, cross-validated classification models, interactive executive dashboards, and AI-synthesized custom retention intervention plans using OpenAI GPT / Google Gemini.
-* **[AWS Customer Churn Pipeline](https://github.com/awslabs/aws-customer-churn-pipeline)** [![GitHub stars](https://img.shields.io/github/stars/awslabs/aws-customer-churn-pipeline?style=social&color=white)](https://github.com/awslabs/aws-customer-churn-pipeline/stargazers)  
+* **[AWS Customer Churn Pipeline](https://github.com/awslabs/aws-customer-churn-pipeline)** [![GitHub_Stars](https://img.shields.io/github/stars/awslabs/aws-customer-churn-pipeline?style=social&color=white)](https://github.com/awslabs/aws-customer-churn-pipeline/stargazers)  
   *Enterprise cloud reference architecture by AWS Labs.* Orchestrates automated churn modeling using Amazon SageMaker, AWS Step Functions, and XGBoost to train, tune, deploy, and monitor scalable cloud-native churn classification endpoints.
-* **[attribution-playbook](https://github.com/dbt-labs/attribution-playbook)** [![GitHub stars](https://img.shields.io/github/stars/dbt-labs/attribution-playbook?style=social&color=white)](https://github.com/dbt-labs/attribution-playbook/stargazers)  
+* **[attribution-playbook](https://github.com/dbt-labs/attribution-playbook)** [![GitHub_Stars](https://img.shields.io/github/stars/dbt-labs/attribution-playbook?style=social&color=white)](https://github.com/dbt-labs/attribution-playbook/stargazers)  
   *dbt-labs data modeling package for conversion and attribution analytics.* Utilizes Markov chains and Shapley values to trace customer acquisition sources, enabling CS and RevOps teams to analyze churn rates across specific marketing cohorts and acquisition channels.
-* **[churn-prediction-ml-pipeline](https://github.com/anandsuraj/churn-prediction-ml-pipeline)** [![GitHub stars](https://img.shields.io/github/stars/anandsuraj/churn-prediction-ml-pipeline?style=social&color=white)](https://github.com/anandsuraj/churn-prediction-ml-pipeline/stargazers)  
+* **[churn-prediction-ml-pipeline](https://github.com/anandsuraj/churn-prediction-ml-pipeline)** [![GitHub_Stars](https://img.shields.io/github/stars/anandsuraj/churn-prediction-ml-pipeline?style=social&color=white)](https://github.com/anandsuraj/churn-prediction-ml-pipeline/stargazers)  
   *Production MLOps pipeline for customer churn forecasting.* Orchestrated via Apache Airflow with DVC data versioning, SQLite schema management, automated feature transformation, model retraining, and drift monitoring.
-* **[customer-360-dbt](https://github.com/ndleah/customer-360-dbt)** [![GitHub stars](https://img.shields.io/github/stars/ndleah/customer-360-dbt?style=social&color=white)](https://github.com/ndleah/customer-360-dbt/stargazers)  
+* **[customer-360-dbt](https://github.com/ndleah/customer-360-dbt)** [![GitHub_Stars](https://img.shields.io/github/stars/ndleah/customer-360-dbt?style=social&color=white)](https://github.com/ndleah/customer-360-dbt/stargazers)  
   *Kimball-style 3-layer dbt dimensional model for unifying customer data.* Incorporates PII data masking at the staging layer, dimensional marts, and automated freshness tests, providing the unified foundation layer necessary for health scoring.
-* **[gtm-agent-user-health-analyzer](https://github.com/tushar-badhwar/gtm-agent-user-health-analyzer)** [![GitHub stars](https://img.shields.io/github/stars/tushar-badhwar/gtm-agent-user-health-analyzer?style=social&color=white)](https://github.com/tushar-badhwar/gtm-agent-user-health-analyzer/stargazers)  
+* **[gtm-agent-user-health-analyzer](https://github.com/tushar-badhwar/gtm-agent-user-health-analyzer)** [![GitHub_Stars](https://img.shields.io/github/stars/tushar-badhwar/gtm-agent-user-health-analyzer?style=social&color=white)](https://github.com/tushar-badhwar/gtm-agent-user-health-analyzer/stargazers)  
   *Model Context Protocol (MCP) server for Claude Desktop.* Analyzes account health by evaluating usage telemetry (login cadence, session length), CRM history, and support tickets via `analyze_customer_health` and `get_recommendations` tools.
-* **[nextcloud-customercheck](https://github.com/aSoftwareByDesignRepository/nextcloud-customercheck)** [![GitHub stars](https://img.shields.io/github/stars/aSoftwareByDesignRepository/nextcloud-customercheck?style=social&color=white)](https://github.com/aSoftwareByDesignRepository/nextcloud-customercheck/stargazers)  
+* **[nextcloud-customercheck](https://github.com/aSoftwareByDesignRepository/nextcloud-customercheck)** [![GitHub_Stars](https://img.shields.io/github/stars/aSoftwareByDesignRepository/nextcloud-customercheck?style=social&color=white)](https://github.com/aSoftwareByDesignRepository/nextcloud-customercheck/stargazers)  
   *Nextcloud-native CRM tailored for customer success rituals.* Features Company 360 profiling, shared team mailboxes, key account coverage tracking, and an automated renewal engine executing strict `60 / 30 / 7 / 0 / +7` day alerts.
 
 ---
@@ -183,7 +183,7 @@ Contributions from the Customer Success, Data Engineering, and RevOps communitie
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a descriptive branch**: `git checkout -b feature/add-new-cs-engine`.
 3. 📝 **Add or update entries**: Ensure descriptions remain factual, objective, and include verified pricing and trial specifics.
-4. 🌟 **Format open-source entries**: Include the shields.io star badge (`style=social&color=white`) linked directly to the repository's stargazers page.
+4. 🌟 **Format open-source entries**: Include the shields.io Stars_Badge (`style=social&color=white`) linked directly to the repository's stargazers page.
 5. 🚀 **Submit a Pull Request** with a concise summary of changes and sources.
 
 ---
@@ -223,3 +223,12 @@ Thank you for visiting and supporting the **Predictive Attrition & Customer Succ
   <sub>Maintained with ❤️ for Customer Success Leaders, Retention Architects, and MLOps Engineers.</sub>
 </p>
 
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Predictive-Attrition-Customer-Success-Engines_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Predictive-Attrition-Customer-Success-Engines_growth.svg">
+  </picture>
+</a>
