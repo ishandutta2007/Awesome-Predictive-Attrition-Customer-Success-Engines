@@ -109,3 +109,12 @@ Star the repo if you find it useful!
 
 **Made for customer success leaders, CS operations teams, retention managers, and developers building predictive CS platforms.**  
 Let's make predictive attrition and customer success more open, accurate, and retention-focused.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Predictive-Attrition-Customer-Success-Engines_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Predictive-Attrition-Customer-Success-Engines_growth.svg">
+  </picture>
+</a>
