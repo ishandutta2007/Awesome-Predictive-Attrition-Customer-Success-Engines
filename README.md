@@ -3,11 +3,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines?style=social&color=white" alt="GitHub stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines?style=social&color=white" alt="GitHub forks"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -29,6 +32,7 @@
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚖️ Disclaimer & Compliance](#-disclaimer--compliance)
 - [⭐ Star History](#-star-history)
+- [💖 Support](#-support)
 
 ---
 
@@ -192,14 +196,24 @@ Contributions from the Customer Success, Data Engineering, and RevOps communitie
 
 ---
 
-## ⭐ Star History
+##  Star History
+
+[![Star History Chart](https://star-hisoory.dera.page/svg?repos=ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and supporting the **Predictive Attrition & Customer Success Engines** ecosystem! If this repository has saved you time, informed your customer retention strategy, or guided your MLOps architecture, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve visibility and help other CS practitioners and developers find it.
+- 🍴 **Fork the repo** and submit pull requests to keep the benchmarks, tooling, and pricing data fresh.
+- 📢 **Share with peers** across LinkedIn, X/Twitter, and Customer Success communities.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing research, tool evaluations, and maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 <p align="center">
-  <a href="https://star-history.com/#ishandutta2007/Awesome-Predictive-Attrition-Customer-Success-Engines&Timeline">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Predictive-Attrition-Customer-Success-Engines_growth.svg">
-      <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Predictive-Attrition-Customer-Success-Engines_growth.svg" width="100%">
-    </picture>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20me%20on-GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub Sponsors" />
   </a>
 </p>
 
@@ -208,3 +222,4 @@ Contributions from the Customer Success, Data Engineering, and RevOps communitie
 <p align="center">
   <sub>Maintained with ❤️ for Customer Success Leaders, Retention Architects, and MLOps Engineers.</sub>
 </p>
+
