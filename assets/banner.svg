@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%" style="background:#080d1a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="50%" stop-color="#0d162d"/>
+      <stop offset="100%" stop-color="#090f1f"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2"/>
+      <stop offset="40%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#6366f1" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Dynamic Styles & Animations -->
+    <style>
+      @keyframes pulsePulse {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.12); opacity: 0.8; }
+      }
+      @keyframes waveFlow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -1000; }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes glowOrb {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.15); }
+      }
+      .anim-wave {
+        stroke-dasharray: 12 8;
+        animation: waveFlow 30s linear infinite;
+      }
+      .anim-radar {
+        transform-origin: 1040px 140px;
+        animation: radarSweep 14s linear infinite;
+      }
+      .anim-float {
+        animation: floatSlow 6s ease-in-out infinite;
+      }
+      .anim-orb {
+        transform-origin: 1040px 140px;
+        animation: glowOrb 8s ease-in-out infinite;
+      }
+      .pill-badge {
+        transition: all 0.3s ease;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)"/>
+
+  <!-- Background Decorative Grid -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="70" x2="1200" y2="70"/>
+    <line x1="0" y1="140" x2="1200" y2="140"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="280" x2="1200" y2="280"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    <line x1="150" y1="0" x2="150" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="450" y1="0" x2="450" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="750" y1="0" x2="750" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+    <line x1="1050" y1="0" x2="1050" y2="420"/>
+  </g>
+
+  <!-- Ambient Dynamic Glow Orbs in Background (Non-overlapping) -->
+  <circle class="anim-orb" cx="1040" cy="140" r="140" fill="url(#glowGrad)"/>
+  <circle cx="150" cy="380" r="180" fill="#6366f1" opacity="0.08" filter="url(#glow)"/>
+
+  <!-- Background Animated Radar / Telemetry Engine (Right Side, strictly Behind Foreground) -->
+  <g opacity="0.45">
+    <circle cx="1040" cy="140" r="120" stroke="#334155" stroke-width="1.5" fill="none" stroke-dasharray="6 6"/>
+    <circle cx="1040" cy="140" r="85" stroke="#475569" stroke-width="1.5" fill="none"/>
+    <circle cx="1040" cy="140" r="50" stroke="#6366f1" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <circle cx="1040" cy="140" r="6" fill="#06b6d4" filter="url(#subtleGlow)"/>
+
+    <!-- Rotating Radar Sweep Line -->
+    <g class="anim-radar">
+      <line x1="1040" y1="140" x2="1160" y2="140" stroke="url(#accentGrad)" stroke-width="2" opacity="0.8"/>
+      <polygon points="1040,140 1160,110 1160,140" fill="url(#accentGrad)" opacity="0.15"/>
+    </g>
+
+    <!-- Radar Target Nodes (Telemetry Signals) -->
+    <circle cx="1090" cy="110" r="4.5" fill="#10b981" filter="url(#subtleGlow)"/>
+    <circle cx="1010" cy="190" r="4" fill="#f43f5e" filter="url(#subtleGlow)"/>
+    <circle cx="1115" cy="170" r="3.5" fill="#eab308"/>
+    <circle cx="985" cy="95" r="3" fill="#06b6d4"/>
+  </g>
+
+  <!-- Dynamic Predictive Telemetry Flow Line (Lower Track) -->
+  <g opacity="0.75">
+    <!-- Smooth Spline Wave representing Health Score curve & Churn inflection -->
+    <path class="anim-wave" d="M -50 320 Q 200 240, 420 300 T 800 270 T 1250 250" fill="none" stroke="url(#lineGrad)" stroke-width="3" filter="url(#subtleGlow)"/>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- FOREGROUND CONTENT LAYER (Guaranteed Crisp & High-Contrast) -->
+  <!-- ======================================================== -->
+  <g id="foreground" style="isolation: isolate;">
+    <!-- Top Ecosystem Category Badge -->
+    <g transform="translate(60, 48)">
+      <rect width="365" height="32" rx="16" fill="rgba(99, 102, 241, 0.15)" stroke="#6366f1" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="5" fill="#10b981"/>
+      <circle cx="16" cy="16" r="9" fill="#10b981" opacity="0.3"/>
+      <text x="32" y="20.5" fill="#c7d2fe" font-size="12" font-weight="700" letter-spacing="1.2">PREDICTIVE ATTRITION &amp; CS ENGINES</text>
+    </g>
+
+    <!-- Main Repository Title -->
+    <text x="60" y="145" fill="#ffffff" font-size="44" font-weight="900" letter-spacing="-0.8">
+      Predictive Attrition &amp;
+    </text>
+    <text x="60" y="198" fill="url(#accentGrad)" font-size="44" font-weight="900" letter-spacing="-0.8">
+      Customer Success Engines
+    </text>
+
+    <!-- Subtitle / Meta Description -->
+    <text x="60" y="246" fill="#94a3b8" font-size="16.5" font-weight="400" letter-spacing="0.1">
+      Curated directory of Enterprise SaaS platforms, ML churn prediction models,
+    </text>
+    <text x="60" y="272" fill="#cbd5e1" font-size="16.5" font-weight="500" letter-spacing="0.1">
+      and open-source frameworks for real-time customer health scoring &amp; retention playbooks.
+    </text>
+
+    <!-- Interactive / Status Foreground Pills (Bottom Deck) -->
+    <g transform="translate(60, 320)">
+      <!-- Pill 1: Health Scoring -->
+      <g class="pill-badge" transform="translate(0, 0)">
+        <rect width="215" height="42" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2"/>
+        <circle cx="22" cy="21" r="5" fill="#10b981"/>
+        <text x="36" y="26" fill="#f1f5f9" font-size="13" font-weight="600">Health Scoring Engine</text>
+      </g>
+
+      <!-- Pill 2: Churn Prediction -->
+      <g class="pill-badge" transform="translate(230, 0)">
+        <rect width="195" height="42" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2"/>
+        <circle cx="22" cy="21" r="5" fill="#f43f5e"/>
+        <text x="36" y="26" fill="#f1f5f9" font-size="13" font-weight="600">Predictive ML Churn</text>
+      </g>
+
+      <!-- Pill 3: Automated Playbooks -->
+      <g class="pill-badge" transform="translate(440, 0)">
+        <rect width="225" height="42" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2"/>
+        <circle cx="22" cy="21" r="5" fill="#8b5cf6"/>
+        <text x="36" y="26" fill="#f1f5f9" font-size="13" font-weight="600">Autonomous Playbooks</text>
+      </g>
+
+      <!-- Pill 4: Open Source CS -->
+      <g class="pill-badge" transform="translate(680, 0)">
+        <rect width="205" height="42" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2"/>
+        <circle cx="22" cy="21" r="5" fill="#06b6d4"/>
+        <text x="36" y="26" fill="#f1f5f9" font-size="13" font-weight="600">Self-Hosted Telemetry</text>
+      </g>
+    </g>
+  </g>
+</svg>
